@@ -1,0 +1,20 @@
+.dash-top{
+    background-image: linear-gradient(
+      rgba(32, 38, 71, 0.45), 
+      rgba(33, 105, 15, 0.45)
+    ), url("../img/forex-bg.jpg");
+      /* Half height */
+    height: 25rem;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-xl {
+  min-width:250px;
+  min-height: 50px;
+  padding: 20px 30px;
+  font-size: 20px;
+}

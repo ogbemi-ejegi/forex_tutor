@@ -1,4 +1,4 @@
-.dash-top{
+.index-top{
     background-image: linear-gradient(
       rgba(32, 38, 71, 0.45), 
       rgba(33, 105, 15, 0.45)
@@ -10,6 +10,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dash-top{
+  background-image: linear-gradient(
+    rgba(32, 38, 71, 0.45), 
+    rgba(33, 105, 15, 0.45)
+  ), url("../img/forex-bgd.jpg");
+    /* Half height */
+  height: 25rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn-xl {
